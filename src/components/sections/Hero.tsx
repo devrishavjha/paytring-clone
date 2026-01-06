@@ -41,27 +41,23 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mb-6"
             >
- <a
+<a
   href="https://theprint.in/ani-press-releases/global-payment-orchestration-platform-paytring-closes-funding-round-with-unlimit-as-lead-investor/2035324/"
   target="_blank"
   rel="noopener noreferrer"
   className="
-    inline-flex items-center gap-2
-    px-3 py-2
+    hidden sm:inline-flex
+    items-center gap-2
+    px-4 py-2
     rounded-full
     bg-amber-500/10 text-amber-800
-    text-xs sm:text-sm font-medium
+    text-sm font-medium
     hover:bg-amber-500/20 transition
-    max-w-full
-    flex-wrap
-    leading-snug
   "
 >
-  <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse flex-shrink-0" />
-  <span className="text-center sm:text-left">
-    Paytring secures strategic pre-seed funding round led by{" "}
-    <span className="font-semibold">Unlimit</span>
-  </span>
+  <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
+  Paytring secures strategic pre-seed funding round led by{" "}
+  <span className="font-semibold">Unlimit</span>
 </a>
 
 
